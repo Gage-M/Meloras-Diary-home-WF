@@ -94,7 +94,8 @@
                 <div class="column-wrap">
                   <section class="column-1">
                      <section class="attributes">
-                        <div class="scores">
+                       <div class="scores">
+                        <h4>scores and modifiers</h4>
                               <div class='ab-score'>
                                  <div class="score">
                                     <label for="Strength-score">Strength</label>
@@ -153,22 +154,23 @@
                                  <div class="modifier">
                                   <label for="Charisma-mod">Cha Mod</label>
                                     <input id="Charisma-mod" placeholder="+0" />
-                                 </div>
+                                  </div>
+                                </div>
                               </div>
-                        </div>
-                        
-                        <!--inspiration & proficiency-->
-                        <div class="attr-applications">
-                           <div class="inspiration box">
-                              <label for="inspiration">Inspiration</label>
-                                <input id="inspiration" placeholder="D6" />
-                           </div>
-                           <div class="proficiency-bonus box">
-                              <label for="proficiency-bonus">Proficiency Bonus</label>
-                                <input id="proficiency-bonus" placeholder="+2" />
-                           </div>
-                           <!--saving throws-->
-                           <div class="saving-throws list-section box">
+                              
+                              <!--inspiration & proficiency-->
+                              <div class="attr-applications">
+                                <div class="inspiration box">
+                                  <label for="inspiration">Inspiration</label>
+                                  <input id="inspiration" placeholder="D6" />
+                                </div>
+                                <div class="proficiency-bonus box">
+                                  <label for="proficiency-bonus">Proficiency Bonus</label>
+                                  <input id="proficiency-bonus" placeholder="+2" />
+                                </div>
+                                <!--saving throws-->
+                                <div class="saving-throws list-section box">
+                                    <h5>Saving Throws</h5>
                               <ul>
                                  <li>
                                     <label for="Strength-save">Strength</label>
@@ -191,115 +193,112 @@
                                         <input class="proficient" id="Wisdom-save" type="checkbox" />
                                  </li>
                                  <li>
-                                    <label for="Intelligence-save">Intelligence</label>
-                                      <input id="Intelligence-save" placeholder="+0" type="text" />
-                                       <input class="proficient" id="Intelligence-save" type="checkbox" />
-                                 </li>
-                                 <li>
+                                   <label for="Intelligence-save">Intelligence</label>
+                                   <input id="Intelligence-save" placeholder="+0" type="text" />
+                                   <input class="proficient" id="Intelligence-save" type="checkbox" />
+                                  </li>
+                                  <li>
                                     <label for="Charisma-save">Charisma</label>
-                                      <input id="Charisma-save" placeholder="+0" type="text" />
-                                        <input class="proficient" id="Charisma-save" type="checkbox" />
-                                 </li>
-                              </ul>
-                              <div class="label">
-                                 Saving Throws
+                                    <input id="Charisma-save" placeholder="+0" type="text" />
+                                    <input class="proficient" id="Charisma-save" type="checkbox" />
+                                  </li>
+                                </ul>
                               </div>
-                           </div>
-                           <!-- Skills -->
-                           <div class="skills list-section box">
-                              <ul>
-                                 <li>
-                                    <label for="Acrobatics">Acrobatics <span class="skill">(Dex)</span></label>
-                                      <input id="Acrobatics" placeholder="+0" type="text"/>
-                                        <input class="proficient" id="Acrobatics" type="checkbox" />
-                                 </li>
-                                 <li>
-                                    <label for="Animal-Handling">Animal Handling <span class="skill">(Wis)</span></label>
-                                      <input id="Animal-Handling" placeholder="+0" type="text" />
-                                        <input class="proficient" id="Animal-Handling" type="checkbox" />
-                                 </li>
-                                 <li>
-                                    <label for="Arcana">Arcana <span class="skill">(Int)</span></label>
-                                      <input id="Arcana" placeholder="+0" type="text" />
-                                        <input class="proficient" id="Arcana" type="checkbox" />
-                                 </li>
-                                 <li>
-                                    <label for="Athletics">Athletics <span class="skill">(Str)</span></label>
-                                      <input id="Athletics" placeholder="+0" type="text" /> 
-                                       <input class="proficient" id="Athletics" type="checkbox" />
-                                 </li>
-                                 <li>
-                                    <label for="Deception">Deception <span class="skill">(Cha)</span></label>
-                                      <input id="Deception" placeholder="+0" type="text" /> 
-                                       <input class="proficient" id="Deception" type="checkbox" />
-                                 </li>
-                                 <li>
-                                    <label for="History">History <span class="skill">(Int)</span></label>
-                                      <input id="History" placeholder="+0" type="text" /> 
-                                        <input class="proficient" id="History" type="checkbox" />
-                                 </li>
-                                 <li>
-                                    <label for="Insight">Insight <span class="skill">(Wis)</span></label>
-                                      <input id="Insight" placeholder="+0" type="text" /> 
-                                       <input class="proficient" id="Insight" type="checkbox" />
-                                 </li>
-                                 <li>
-                                    <label for="Intimidation">Intimidation <span class="skill">(Cha)</span></label>
-                                      <input id="Intimidation" placeholder="+0" type="text" />
-                                        <input class="proficient" id="Intimidation" type="checkbox" />
-                                 </li>
-                                 <li>
-                                    <label for="Investigation">Investigation <span class="skill">(Int)</span></label> 
-                                      <input id="Investigation" placeholder="+0" type="text" />  
-                                        <input class="proficient" id="Investigation" type="checkbox" />
-                                 </li>
-                                 <li>
-                                    <label for="Medicine">Medicine <span class="skill">(Wis)</span></label> 
-                                      <input id="Medicine" placeholder="+0" type="text" /> 
-                                        <input class="proficient" id="Medicine" type="checkbox" />
-                                 </li>
-                                 <li>
-                                    <label for="Nature">Nature <span class="skill">(Int)</span></label> 
-                                      <input id="Nature" placeholder="+0" type="text" /> 
-                                        <input class="proficient" id="Nature" type="checkbox" />
-                                 </li>
-                                 <li>
-                                    <label for="Perception">Perception <span class="skill">(Wis)</span></label> 
-                                     <input id="Perception" placeholder="+0" type="text" /> 
-                                        <input class="proficient" id="Perception" type="checkbox" />
-                                 </li>
-                                 <li>
-                                    <label for="Performance">Performance <span class="skill">(Cha)</span></label> 
-                                      <input id="Performance" placeholder="+0" type="text" />  
-                                        <input class="proficient" id="Performance" type="checkbox" />
-                                 </li>
-                                 <li>
-                                    <label for="Persuasion">Persuasion <span class="skill">(Cha)</span></label> 
-                                      <input id="Persuasion" placeholder="+0" type="text" /> 
-                                        <input class="proficient" id="Persuasion" type="checkbox" />
-                                 </li>
-                                 <li>
-                                    <label for="Religion">Religion <span class="skill">(Int)</span></label> 
-                                      <input id="Religion" placeholder="+0" type="text" /> 
-                                        <input class="proficient" id="Religion" type="checkbox" />
-                                 </li>
-                                 <li>
-                                    <label for="Sleight-of-Hand">Sleight of Hand <span class="skill">(Dex)</span></label> 
-                                      <input id="Sleight-of-Hand" placeholder="+0" type="text" />  
-                                        <input class="proficient" id="Sleight-of-Hand" type="checkbox" />
-                                 </li>
-                                 <li>
-                                    <label for="Stealth">Stealth <span class="skill">(Dex)</span></label> 
-                                      <input id="Stealth" placeholder="+0" type="text" />  
-                                        <input class="proficient" id="Stealth" type="checkbox" />
-                                 </li>
-                                 <li>
-                                    <label for="Survival">Survival <span class="skill">(Wis)</span></label> 
-                                      <input id="Survival" placeholder="+0" type="text" /> 
-                                        <input class="proficient" id="Survival" type="checkbox" />
-                                 </li>
-                              </ul>
-                              <h5>Skills</h5>
+                              <!-- Skills -->
+                              <div class="skills list-section box">
+                                <h5>Skills</h5>
+                                 <ul>
+                                    <li>
+                                       <label for="Acrobatics">Acrobatics <span class="skill">(Dex)</span></label>
+                                         <input id="Acrobatics" placeholder="+0" type="text"/>
+                                           <input class="proficient" id="Acrobatics" type="checkbox" />
+                                    </li>
+                                    <li>
+                                       <label for="Animal-Handling">Animal Handling <span class="skill">(Wis)</span></label>
+                                         <input id="Animal-Handling" placeholder="+0" type="text" />
+                                           <input class="proficient" id="Animal-Handling" type="checkbox" />
+                                    </li>
+                                    <li>
+                                       <label for="Arcana">Arcana <span class="skill">(Int)</span></label>
+                                         <input id="Arcana" placeholder="+0" type="text" />
+                                           <input class="proficient" id="Arcana" type="checkbox" />
+                                    </li>
+                                    <li>
+                                       <label for="Athletics">Athletics <span class="skill">(Str)</span></label>
+                                         <input id="Athletics" placeholder="+0" type="text" /> 
+                                          <input class="proficient" id="Athletics" type="checkbox" />
+                                    </li>
+                                    <li>
+                                       <label for="Deception">Deception <span class="skill">(Cha)</span></label>
+                                         <input id="Deception" placeholder="+0" type="text" /> 
+                                          <input class="proficient" id="Deception" type="checkbox" />
+                                    </li>
+                                    <li>
+                                       <label for="History">History <span class="skill">(Int)</span></label>
+                                         <input id="History" placeholder="+0" type="text" /> 
+                                           <input class="proficient" id="History" type="checkbox" />
+                                    </li>
+                                    <li>
+                                       <label for="Insight">Insight <span class="skill">(Wis)</span></label>
+                                         <input id="Insight" placeholder="+0" type="text" /> 
+                                          <input class="proficient" id="Insight" type="checkbox" />
+                                    </li>
+                                    <li>
+                                       <label for="Intimidation">Intimidation <span class="skill">(Cha)</span></label>
+                                         <input id="Intimidation" placeholder="+0" type="text" />
+                                           <input class="proficient" id="Intimidation" type="checkbox" />
+                                    </li>
+                                    <li>
+                                       <label for="Investigation">Investigation <span class="skill">(Int)</span></label> 
+                                         <input id="Investigation" placeholder="+0" type="text" />  
+                                           <input class="proficient" id="Investigation" type="checkbox" />
+                                    </li>
+                                    <li>
+                                       <label for="Medicine">Medicine <span class="skill">(Wis)</span></label> 
+                                         <input id="Medicine" placeholder="+0" type="text" /> 
+                                           <input class="proficient" id="Medicine" type="checkbox" />
+                                    </li>
+                                    <li>
+                                       <label for="Nature">Nature <span class="skill">(Int)</span></label> 
+                                         <input id="Nature" placeholder="+0" type="text" /> 
+                                           <input class="proficient" id="Nature" type="checkbox" />
+                                    </li>
+                                    <li>
+                                       <label for="Perception">Perception <span class="skill">(Wis)</span></label> 
+                                        <input id="Perception" placeholder="+0" type="text" /> 
+                                           <input class="proficient" id="Perception" type="checkbox" />
+                                    </li>
+                                    <li>
+                                       <label for="Performance">Performance <span class="skill">(Cha)</span></label> 
+                                         <input id="Performance" placeholder="+0" type="text" />  
+                                           <input class="proficient" id="Performance" type="checkbox" />
+                                    </li>
+                                    <li>
+                                       <label for="Persuasion">Persuasion <span class="skill">(Cha)</span></label> 
+                                         <input id="Persuasion" placeholder="+0" type="text" /> 
+                                           <input class="proficient" id="Persuasion" type="checkbox" />
+                                    </li>
+                                    <li>
+                                       <label for="Religion">Religion <span class="skill">(Int)</span></label> 
+                                         <input id="Religion" placeholder="+0" type="text" /> 
+                                           <input class="proficient" id="Religion" type="checkbox" />
+                                    </li>
+                                    <li>
+                                       <label for="Sleight-of-Hand">Sleight of Hand <span class="skill">(Dex)</span></label> 
+                                         <input id="Sleight-of-Hand" placeholder="+0" type="text" />  
+                                           <input class="proficient" id="Sleight-of-Hand" type="checkbox" />
+                                    </li>
+                                    <li>
+                                       <label for="Stealth">Stealth <span class="skill">(Dex)</span></label> 
+                                         <input id="Stealth" placeholder="+0" type="text" />  
+                                           <input class="proficient" id="Stealth" type="checkbox" />
+                                    </li>
+                                    <li>
+                                       <label for="Survival">Survival <span class="skill">(Wis)</span></label> 
+                                         <input id="Survival" placeholder="+0" type="text" /> 
+                                           <input class="proficient" id="Survival" type="checkbox" />
+                                    </li>
+                                 </ul>
                             </div>
                           </div>
                     </section>
@@ -516,12 +515,11 @@
           
          </div>
          <!--footer-->
-         <footer>
-           <div>
-             <h5>contact info copyright notes </h5>
-
-           </div>
-         </footer>
-      </main>
+        </main>
+          <footer>
+            <div>
+              <h5>contact info copyright notes </h5>
+            </div>
+          </footer>
    </body>
 </html>
