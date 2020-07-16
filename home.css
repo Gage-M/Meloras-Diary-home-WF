@@ -1,0 +1,64 @@
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+div{
+  margin: 3px 0 3px 0;
+  border: black solid thin;
+}
+
+ul{
+  padding-left: 10px;
+  list-style: none;
+}
+
+li{
+  margin: 7px 0 6px 0;
+}
+.ab-score{
+  margin: 3px;
+  padding: 3px;
+}
+
+.proficient{
+  margin: 0px 10px 0 10px ;
+  height: 18px;
+  width: 20px;
+}
+
+.score{
+  border: none;
+}
+
+.modifier{
+  border: none;
+}
+
+
+.table-items{
+  width: 85%;
+  margin: 3px;
+}
+
+.wt{
+   display: table; 
+}
+
+.Row {
+   display: table-row;
+}
+
+.wt-header {
+   display: table-header-group; 
+   width: 95px;
+}
+
+.cell, .wt-header {
+   display: table-cell; 
+}
+
+
+@media all  and (min-width: 600px) {
+
+}
