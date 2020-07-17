@@ -16,6 +16,12 @@ ul{
 li{
   margin: 7px 0 6px 0;
 }
+
+.nav-bar{
+  display: flex;
+  flex-direction: row;
+}
+
 .ab-score{
   margin: 3px;
   padding: 3px;
